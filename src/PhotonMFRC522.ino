@@ -1,6 +1,6 @@
 #include "MFRC522.h"
 
-#define SS_PIN SS
+#define SS_PIN A2
 #define RST_PIN A6
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);	// Create MFRC522 instance.
